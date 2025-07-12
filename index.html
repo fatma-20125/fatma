@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>portfolio</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(179, 175, 175);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        header{
+            background-color: ;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 20px;
+        }
+        #nav{
+            background-color: rgb(46, 46, 49);
+            padding: 10px ;
+            display: flex;
+            justify-content: center
+        }
+        #nav a{
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            margin: 15px;
+            text-decoration: none;
+        }
+       #main{
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1200px;
+
+       }
+       #interduction, #activitysection, #skillsection, #contactsection{
+            background-color: rgb(255, 255, 255);
+            margin-bottom: 3o px;
+            padding: 20;
+            border-radius: 10px;
+       }
+       #interduction h2, #activitysection h2,#skillsection h2, #contactsection h2{
+            text-align: center;
+            font-size: 24px;
+            color:  rgb(0, 0, 0);
+       }
+
+       }
+       #introduction{
+           text-align: center;
+           font-size: 18px;
+       }
+       #skillsection table{
+           width:100%;
+       }
+       #skillsection th, #skillsection td{
+           border: 1px solid rgb(46, 46, 49);
+           padding: 10px; 
+           text-align: center;
+       }
+       #skillsection th{
+           background-color: rgb(255, 255, 255);
+           color: rgb(0, 0, 0);
+       }
+        #contactsection label{
+            display: block;
+            margin: 10px 0 5px;
+        }
+        #contactsection input,  #contactsection teaxtarea{
+            width: 100%;
+            padding: 8px;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 5px;
+        }
+         #contactsection button{
+            display:block;
+            margin: auto;
+            background-color: rgb(60, 60, 68);
+            padding: 10px;
+            color: rgb(0, 0, 0);
+            border-radius: 5px;
+         }
+         footer{
+         background-color: rgb(60, 60, 68);
+         text-align: center;
+         padding: 10px ;
+         color: rgb(0, 0, 0);
+         font-size: 18px;
+         }
+     </style>    
+    <body>
+        <header>
+            <h1>welcome in my website</h1>
+        </header>
+        <nav id="nav">
+            <a href="#interduction">AboutMe</a>
+            <a href="#activitysection">Activities</a>
+            <a href="#skillssection">Skills</a>
+            <a href="#contactsection">Contact</a>
+        </nav>
+        <main id="main">
+            <section id="interduction">
+                <h2>About Me</h2>
+                <p>i am fatma iam a programr</p>
+
+            </section>
+
+            <section id="activitysection">
+                <h1>favoritre activitys</h1>
+                <ul>
+                    <li>reading</li>
+                    <li>playing vedio game</li>
+                    <li>coding</li>
+                </ul>
+            </section>
+
+            <section id = "skillssection" >
+                <h2>My Skils</h2>
+                <table>
+                    <tr>
+                        <th>skill</th>
+                        <th>professional</th>
+                    </tr>
+                        <td>drawing </td>
+                        <td>intermediate</td>
+                    <tr>
+                       <td>html</td> 
+                       <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>css</td>
+                        <td>intermediate</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id = "contactsectiction">
+                <h2> contact me</h2>
+                <div>
+                    <label>name : </label>
+                    <input type="text" placeholder=" enter your name">
+                    <label>email : </label>
+                    <input type="text" placeholder=" enter your email">
+                    <label> massage : </label>
+                    <textarea placeholder="write your massage" rows="5"></textarea>
+                    <button type="button"send></button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 By Fatma. All rights reserved</p>
+        </footer>
+    </body> 
